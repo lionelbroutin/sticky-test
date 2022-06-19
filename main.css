@@ -1,0 +1,26 @@
+body {
+  background: gray;
+  min-height: 120vh;
+  margin: 0;
+}
+
+#container {
+  background: gainsboro;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  height: 100vh;
+}
+
+#body {
+  height: 100%;
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
+  background: red;
+  height: 100px;
+}
